@@ -63,4 +63,36 @@ nav ul {
     /* ... */
 }
 
-/* Resto do seu CSS */d
+/* Resto do seu CSS */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.previsao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.detalhes {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Estilize o gráfico e a previsão para os próximos dias */
+.grafico {
+    /* ... */
+}
+
+.previsao-dias {
+    /* ... */
+}
