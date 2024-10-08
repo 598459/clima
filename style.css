@@ -17,6 +17,6 @@ header {
 }
 
 .current-weather img {
-    width: 200px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 400px; /* Aumente o valor para aumentar a largura da imagem */
+    height: auto;
 }
