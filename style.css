@@ -1,20 +1,37 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
     text-align: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.current-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.clima-atual {
-    border: 1px solid #ccc;
-    padding: 10px;
+.temperature {
+    font-size: 36px;
+    font-weight: bold;
 }
 
-.previsao {
-    border: 1px solid #ccc;
-    padding: 10px;
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.day {
+    text-align: center;
 }
