@@ -18,5 +18,5 @@ header {
 .current-weather img {
     width: 800px;
     height: auto;
-    margin-top: 20px; /* Adiciona um espaço de 20 pixels acima da imagem */
+    margin-top: 40px; /* Adiciona um espaço de 20 pixels acima da imagem */
 }
