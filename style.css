@@ -17,10 +17,10 @@ header {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: #fff;
+    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 5px rgb(253, 253, 253);
 }
 
 .detalhes {
