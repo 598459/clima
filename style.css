@@ -35,3 +35,24 @@ body {
 .day {
     text-align: center;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    display: flex;
+    flex-direction: column; /* Mudamos para coluna para acomodar a barra superior */
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333; /* Cor de fundo da barra */
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    /* ... */
+}
