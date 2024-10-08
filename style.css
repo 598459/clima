@@ -15,8 +15,8 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .current-weather img {
-    width: 800px; /* Aumente o valor para aumentar a largura da imagem */
+    width: 800px;
     height: auto;
+    margin-top: 20px; /* Adiciona um espaço de 20 pixels acima da imagem */
 }
