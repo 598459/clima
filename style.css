@@ -56,3 +56,25 @@ header {
 .card {
     /* ... */
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Aqui está a mudança */
+    top: 0; /* Posiciona a barra no topo da página */
+    z-index: 1; /* Garante que a barra fique acima do conteúdo */
+}
+
+.card {
+    /* ... */
+}
